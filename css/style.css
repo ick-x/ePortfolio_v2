@@ -20,9 +20,9 @@ header {
     align-items: center;
     height: 75px;
     border-bottom: 2px solid rgb(0, 0, 0);
-    background: rgb(225, 225, 225);
+    background: rgb(235, 235, 235);
     overflow: hidden;
-    padding: 0 1%;
+    padding: 0 .5%;
 }
 
 .navlink {
@@ -30,6 +30,23 @@ header {
     padding: 20px 20px;
     color: rgb(0, 0, 0);
     text-decoration: none;
+    margin : 0 .25em;
+    transition: 0.45s;
+    cursor: pointer;
+}
+
+.non-active:hover {
+    background: rgb(200, 200, 200);
+}
+
+.active {
+    background-color: rgb(74, 0, 144);
+    color : white;
+    border-radius : 3px  ;
+}
+
+.active:hover {
+    background-color: rgb(53, 0, 102);
 }
 
 .sidebar-button {
@@ -38,12 +55,7 @@ header {
     padding: 1em 1em;
 }
 
-.navlink:hover {
-    background: rgb(200, 200, 200);
-}
-
 .nom {
-    
     margin-left:auto;
     margin-right:auto;
 }
@@ -56,4 +68,8 @@ header {
 .searchbar:focus-visible {
     outline: 2px solid rgb(50,50,50);
     border-radius: 1px;
+}
+
+.pop {
+    height: 1000px;
 }
