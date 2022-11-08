@@ -9,6 +9,11 @@ header {
     left: 0;
 }
 
+p {
+    margin : 0;
+    padding : 0;
+}
+
 .vac {
     display: table-cell;
     vertical-align: middle;
@@ -72,4 +77,23 @@ header {
 
 .pop {
     height: 1000px;
+}
+
+.container-colonne {
+    display : flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.corps {
+    padding : 0 15%;
+}
+
+.bienvenue {
+    text-align: center;
+}
+
+.bienvenue h2 {
+    margin : 0;
+    padding : 5% 0;
 }
