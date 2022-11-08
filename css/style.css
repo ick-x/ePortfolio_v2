@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.vac {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 75px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background: rgb(225, 225, 225);
+    overflow: hidden;
+    padding: 0 1%;
+}
+
+.navlink {
+    display: inline-block;
+    padding: 20px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.sidebar-button {
+    height: 16px;
+    width: 16px;
+    padding: 1em 1em;
+}
+
+.navlink:hover {
+    background: rgb(200, 200, 200);
+}
+
+.nom {
+    
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.searchbar {
+    margin-left : auto;
+    margin-right : 1%;
+}
+
+.searchbar:focus-visible {
+    outline: 2px solid rgb(50,50,50);
+    border-radius: 1px;
+}
